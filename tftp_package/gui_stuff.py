@@ -69,7 +69,7 @@ class TopFrame(Tkinter.Frame):
 
         # Create a label area, showing tftp progress
         self.TextArea=Tkinter.Label(self, width=50, height=16, relief=Tkinter.SUNKEN,
-                                    background="white", borderwidth=2,
+                                    background="black", borderwidth=2,
                                     anchor=Tkinter.NW, justify=Tkinter.LEFT)
         self.TextArea.pack(side=Tkinter.TOP, padx=10, pady=10)
 
